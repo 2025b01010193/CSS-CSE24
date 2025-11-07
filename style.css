@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-p{
+/* p{
     color: blue;
     background-color: rgb(169, 153, 201);
     text-align: center;
@@ -23,8 +23,8 @@ body{
 }
 #l1{
     color: gray;
-}
-div{
+} */
+.box1{
     height: 500px;
     width: 300px;
     background-color: gray;
