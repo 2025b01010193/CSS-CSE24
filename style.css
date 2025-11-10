@@ -24,11 +24,112 @@ body{
 #l1{
     color: gray;
 } */
-.box1{
+/* .box1{
     height: 500px;
     width: 300px;
     background-color: gray;
     border: 5px double black;
     padding: 10px;
     margin-left: 50px;
+} */
+
+
+/* body{
+    border: 3px solid black;
+    margin: 30px;
+    padding: 10px;
 }
+div{
+    div{
+        h1{
+            background-color: skyblue;
+            padding: 20px;
+            margin: 10px;
+        }
+        p{
+            background-color: darkolivegreen;
+            padding: 20px;
+            margin: 10px;
+        }
+    }
+} */
+.container{
+    display: inline-block;
+    height: 650px;
+    width: 1000px;
+     border: 2px solid black;
+    margin: 30px;
+    padding: 10px;
+ }
+
+.boxbox1{
+    height: 500px;
+    width: 250px;
+    display: inline-block;
+     background-color: burlywood;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+}
+.boxbox2{
+    height: 500px;
+    width: 250px;
+    display: inline-block;
+     background-color: brown;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+}
+.boxbox3{
+    height: 500px;
+    width: 250px;
+    display: inline-block;
+     background-color: skyblue;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+}
+
+/* div {
+    background-color: rgba(204, 116, 116, 0.781);
+    border: 2px solid black;
+    padding: 20px;
+    width: 600px;
+}
+img {
+    float: left;
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+}
+#p2 {
+    clear: both;
+    background-color: beige;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
