@@ -108,40 +108,56 @@ img {
 } */
 
 .container{
-    /* flex-direction: row-reverse; */
+    /* flex-direction: row; main axis: horizontal*/
+    /* flex-direction: row-reverse; strt from right */
+     /* flex-direction: column; main axis : vertical */
+     /* flex-direction: column-reverse; strt from downward*/
+     /* flex-wrap: nowrap | wrap |wrap reverse; (nowrap: as it is )
+                                                (wrap: it will move items in next line)
+                                                (wrap reverse: adjust all items by shrinking) */
+
     display: flex;
     border: 1px solid black;
     height: 100px;
     width: 500px;
     background-color: burlywood;
     flex-wrap: wrap;
-    /* justify-content: flex-end; 
-      justify-content: flex-start;
-    justify-content: center;
-    justify-content: space-between;
-    justify-content: space-evenly;
-    justify-content: space-around; */
+    /* justify-content: flex-end;  */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-in-between; */
+    /* justify-content: space-evenly; */
      align-items: center;
-    /* align-items: flex-start;
-    align-items: flex-end;
-    align-items: stretch;
-    align-items: baseline; */
-    /* align-content: flex-end;
-    align-content: flex-start;
-     */
+     /* align-items: flex-start; sb upar wali line se touch ho jayega */
+    /* align-items: flex-end;  sb niche wali line se touch ho jayega*/
+     /* align-items: center;  sb center wali line se jayega*/
+    /* align-items: stretch;  sb stretch hokar upar aur niche wali line se touch ho jayega*/
+    /* align-items: baseline;  sb center wali line jayega aur ek line bhi kheech jayegi unke center se*/
+    /* align-content: flex-end; sb niche ki taraf shift ho jayega*/
+    /*align-content: flex-start; sb upar ki taraf shift ho jayega */
+    /*align-content:center; sb center mein shift ho jayega*/
+    /*align-content: stretch; sb stretch ho jayega */
+    /*align-content: space between; upar aur niche wale ek dusre ke respect mein shift ho jayenge */
+    /*align-content: space around; sb ek dusre se shift ho jayega*/
     gap: 10px;
-    /* row-gap: ;
-    column-gap: ; */
+    /* row-gap: ; bagal bagal walon mein gap aayega*/
+    /*column-gap: ; upar niche wale mein gap aayega*/
 
-
+    /* by default sabhi child elen=ment ka order 0 hi hota hai */
 }
 .item{
     height: 50px;
     width: 75px;
     border: 2px solid black;
     background-color: aquamarine;
+    flex-grow: 1;
 }
-
+.item4{
+    /* order: -1; */
+    flex-grow:2;
+    align-self: flex-end;
+}
 
 
 
